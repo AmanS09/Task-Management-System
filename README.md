@@ -3,10 +3,6 @@
 ## Overview
 
 The Task Management System Application is designed to enhance productivity and organization by providing a user-friendly interface for managing tasks. This application is built using the latest version of Angular.
-## Screen Shots
-
-
-
 
 ## Features
 
