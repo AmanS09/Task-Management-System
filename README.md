@@ -15,9 +15,9 @@ The Task Management System Application is designed to enhance productivity and o
 -User-friendly form to enter task details.
 
 ### Task Management
--Update task status (To-Do, In-Progress, Completed).
--Edit task details such as title, description, due date, and priority level.
--Delete tasks from the list.
+- Update task status (To-Do, In-Progress, Completed).
+- Edit task details such as title, description, due date, and priority level.
+- Delete tasks from the list.
 
 
 ### Task Display and Sorting
