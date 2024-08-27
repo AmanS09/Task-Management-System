@@ -1,0 +1,24 @@
+<div class>
+<button class="btn btn-primary btn1" (click)="sortTasksByPriority()">Sort by Priority</button>
+<button class="btn btn-primary btn2" (click)="sortTasksByDueDate()">Sort by Due Date</button>
+<button class="btn btn-primary btn3" (click)="sortTasksByStatus()">Sort by Status</button>
+</div>
+<ul>
+<li *ngFor="let task of tasks">
+  <div>
+    <span class="status-indicator" [ngClass]="task.status"></span>
+    {{ task.title }} - <span [ngClass]="task.priority">{{ task.priority }}</span> - {{ task.status }}
+  </div>
+  <div>
+    <button (click)="onEditTask(task)">
+      <i class="fa fa-edit edit-icon"></i>
+    </button>
+    <button (click)="onDeleteTask(task.id)">
+      <i class="fa fa-trash delete-icon"></i>
+    </button>
+    <button (click)="onViewTask(task)">
+      <i class="fa fa-history view-icon"></i>
+    </button>
+  </div>
+</li>
+</ul>

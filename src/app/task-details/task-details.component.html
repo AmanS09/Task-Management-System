@@ -1,0 +1,13 @@
+<div class="task-detail">
+  <h2>Task Details <i class="fa fa-tasks detail-icon"></i></h2>
+  <p><strong>Title:</strong> {{ data.title }}</p>
+  <p><strong>Description:</strong> {{ data.description }}</p>
+  <p><strong>Due Date:</strong> {{ data.dueDate | date:'shortDate' }}</p>
+  <p><strong>Priority:</strong> <span [ngClass]="data.priority">{{ data.priority }}</span></p>
+  <p><strong>Status:</strong> {{ data.status }} </p>
+  <h3>History Log <i class="fa fa-history history-icon"></i></h3>
+  <ul>
+    <li *ngFor="let entry of data.history"> {{ entry }}</li>
+  </ul>
+  <button class="close-btn" (click)="close()">Close <i class="fa fa-times close-icon"></i></button>
+</div>
