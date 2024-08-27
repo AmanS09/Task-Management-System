@@ -5,11 +5,6 @@
 The Task Management System Application is designed to enhance productivity and organization by providing a user-friendly interface for managing tasks. This application is built using the latest version of Angular.
 ## Screen Shots
 
-![Screenshot_1-7-2024_223015_angular-task-management-system-sigma vercel app](https://github.com/Mayank-Tiwari01/Angular-Task-Management-System/assets/103953234/dba4f49c-f3fa-4852-bc2e-1ea967261448)
-![Screenshot_1-7-2024_1399_angular-task-management-system-sigma vercel app](https://github.com/Mayank-Tiwari01/Angular-Task-Management-System/assets/103953234/514a1547-fad1-4694-bc4c-e17e1f6d853f)
-![Screenshot_1-7-2024_223245_angular-task-management-system-sigma vercel app](https://github.com/Mayank-Tiwari01/Angular-Task-Management-System/assets/103953234/b2643eb6-0849-4297-a656-ec0f304fbe52)
-![Screenshot_1-7-2024_162217_localhost](https://github.com/Mayank-Tiwari01/Angular-Task-Management-System/assets/103953234/071c3e66-0d12-43d1-b84c-fd0c483708f0)
-![Screenshot (590)](https://github.com/Mayank-Tiwari01/Angular-Task-Management-System/assets/103953234/d072e220-0df4-475b-9ad1-9396bc8ecf32)
 
 
 
