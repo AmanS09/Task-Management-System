@@ -11,8 +11,8 @@ The Task Management System Application is designed to enhance productivity and o
 ## Features
 
 ### Add New Tasks:
--Users can create new tasks with a title, description, due date, and priority level (Low, Medium, High).
--User-friendly form to enter task details.
+- Users can create new tasks with a title, description, due date, and priority level (Low, Medium, High).
+- User-friendly form to enter task details.
 
 ### Task Management
 - Update task status (To-Do, In-Progress, Completed).
