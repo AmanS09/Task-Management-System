@@ -57,7 +57,7 @@ The Task Management System Application is designed to enhance productivity and o
     ng serve
     ```
 
-    The application will be available at `http://localhost:4200/` (or you may give a custom port).
+    The application will be available at `http://localhost:4200/`.
 
 ### Project Structure
 
