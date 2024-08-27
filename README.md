@@ -14,24 +14,25 @@ The Task Management System Application is designed to enhance productivity and o
 - Users can create new tasks with a title, description, due date, and priority level (Low, Medium, High).
 - User-friendly form to enter task details.
 
-### Task Management
+### Task Management:
 - Update task status (To-Do, In-Progress, Completed).
 - Edit task details such as title, description, due date, and priority level.
 - Delete tasks from the list.
 
+### Task List View:
+- Display tasks in a list view with relevant information (title, priority, due date, status).
+- Ability to sort tasks by due date, priority, or status.
 
-### Task Display and Sorting
-- **List View**: Tasks are displayed in a list format for easy viewing.
-- **Sorting**: Tasks are sorted: High > medium > low.
 ### Responsive Design
-- **Mobile and Desktop Support**: The application is fully responsive and works well on various screen sizes, providing a consistent user experience across devices.
+- The application is fully responsive and works seamlessly on both desktop and mobile devices.
 
 ### Export Functionality
 - **Export to CSV**: Users can export their tasks to a CSV file for external use and backup.
 
 ### History Log
-- **Task History**: A detailed history log is maintained for each task, recording all changes such as creation, status updates, and edits.
-
+- Maintain a history log for each task, tracking all changes including creation, status 
+  updates, edits, and deletions.
+- Display the history log to users for transparency and tracking.
 ## Development Details
 
 ### Technology Stack
@@ -42,8 +43,8 @@ The Task Management System Application is designed to enhance productivity and o
 
 1. **Clone the Repository**:
     ```bash
-    git clone <https://github.com/Mayank-Tiwari01/Angular-Task-Management-System.git>
-    cd Angular-Task-Management-System
+    git clone <https://github.com/AmanS09/Task-Management-System.git>
+    cd Task-Management-System
     ```
 
 2. **Install Dependencies**:
@@ -69,10 +70,6 @@ The Task Management System Application is designed to enhance productivity and o
     - **task.model.ts**: Defines the Task interface.
   - **services**:
     - **task.service.ts**: Provides task management functionalities.
-  - **store**:
-    - **reducers**: Manages application state using ngrx store.
-    - **actions**: Defines actions for state management.
-    - **effects**: Handles side effects in state management.
 
 ### Detailed Features
 
